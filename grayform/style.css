@@ -8,19 +8,18 @@ body {
 form {
   position: relative;
   padding: 1em;
-  width: 50%;
+  width: 25%;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(93, 186, 127, 1);
 }
 
 .name, .email {
   width: 48%;
   padding: 1em;
-  border: solid rgba(225, 225, 225, .7) 1px;
-  background-color: transparent;
+  background-color: rgb(247, 247, 247);
+  border: none;
   border-radius: 4px;
-  margin-bottom: 2.5em;
+  margin-bottom: .7em;
 }
 
 .email {
@@ -29,8 +28,8 @@ form {
 
 textarea {
   width: 100%;
-  background-color: transparent;
-  border: solid rgba(225, 225, 225, .7) 1px;
+  background-color: rgb(247, 247, 247);
+  border: none;
   margin-bottom: 2em;
   border-radius: 4px;
   padding: 1em;
@@ -38,29 +37,14 @@ textarea {
 .submit {
   display: block;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 0;
   border-radius: 4px;
   background-color: #fff;
-  color: rgba(93, 186, 127, 1);
   border: none;
-  text-transform: uppercase;
+  border: 3px solid rgb(247, 247, 247);
   padding: 10px 15px;
-  width: 30%;
   margin-bottom: 0;
+  color: gray;
 }
 
-::-webkit-input-placeholder {
-   color: #fff;
- }
 
- :-moz-placeholder { /* Firefox 18- */
-   color: #fff;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;
-}
-
-:-ms-input-placeholder {
-   color: #fff;
-}
