@@ -1,0 +1,74 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 14pt;
+}
+
+form {
+  padding: .75em;
+}
+
+.password, .email {
+  width: 20%;
+  padding: .75em;
+  border: solid lightgray 2px;
+  border-radius: 5px;
+  margin: 0 .5em;
+  font-size: 14pt;
+}
+
+.check {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+
+  -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px radiusdiusgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px   rgba(0,0,0,0.5);
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+  background: #fcfff4;
+
+  background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: -o-backgroundlinear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4'fcfff4, endColorstr='#b3bead',GradientType=0 );
+}
+
+label {
+  margin: 0 .5em;
+  border: none;
+}
+.submit, .register {
+  border-radius: 5px;
+  background-color: rgb(45, 141, 229);
+  color: #fff;
+  border: none;
+  padding: .75em 1.5em;
+  margin: 0 .5em;
+  font-size: 14pt;
+}
+
+.register {
+  background-color: lightgray;
+}
+
+::-webkit-input-placeholder {
+     font-size: 14pt;
+ }
+
+:-moz-placeholder { /* Firefox 18- */
+     font-size: 14pt;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+     font-size: 14pt;
+}
+
+:-ms-input-placeholder {
+     font-size: 14pt;
+}

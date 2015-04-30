@@ -1,0 +1,66 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+}
+
+form {
+  position: relative;
+  padding: 1em;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(93, 186, 127, 1);
+}
+
+.name, .email {
+  width: 48%;
+  padding: 1em;
+  border: solid rgba(225, 225, 225, .7) 1px;
+  background-color: transparent;
+  border-radius: 4px;
+  margin-bottom: 2.5em;
+}
+
+.email {
+  float: right;
+}
+
+textarea {
+  width: 100%;
+  background-color: transparent;
+  border: solid rgba(225, 225, 225, .7) 1px;
+  margin-bottom: 2em;
+  border-radius: 4px;
+  padding: 1em;
+}
+.submit {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  color: rgba(93, 186, 127, 1);
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  width: 30%;
+  margin-bottom: 0;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+ }
+
+ :-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;
+}
+
+:-ms-input-placeholder {
+   color: #fff;
+}
