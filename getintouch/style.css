@@ -3,24 +3,53 @@
 }
 
 body {
+  font-family: Lato, sans-serif;
+}
+
+.title {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: bold;
+  font-size: 28pt;
+  letter-spacing: 2px;
+  margin: 1em auto 1em auto;
+  text-align: center;
+  line-spacing: 2em;
+}
+
+.divider {
+  margin: 0 auto;
+  margin-top: 1.5em;
+  background-color: lightgray;
+  height: 3px;
+  width: 25%;
 }
 
 form {
   position: relative;
-  padding: 1em;
+  background-image: url(http://1.bp.blogspot.com/_uBNxPUEhtdM/TBi00PPe8TI/AAAAAAAAE2o/aetYZn9nTDU/s1600/elviscostello_011.jpg);
   width: 50%;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(93, 186, 127, 1);
+}
+
+.formbg {
+  background-color: rgba(255, 255, 255, .95);
+  width: 100%;
+  height: 100%;
+  padding: 4em;
 }
 
 .name, .email {
   width: 48%;
-  padding: 1em;
-  border: solid rgba(225, 225, 225, .7) 1px;
-  background-color: transparent;
-  border-radius: 4px;
-  margin-bottom: 2.5em;
+  height: 3em;
+  padding-left: 1.5em;
+  background-color: rgba(225, 225, 225, .8);
+  border: none;
+  margin-bottom: 1.5em;
+  shadow-box: none;
+  font-size: 22px;
 }
 
 .email {
@@ -29,38 +58,39 @@ form {
 
 textarea {
   width: 100%;
-  background-color: transparent;
-  border: solid rgba(225, 225, 225, .7) 1px;
-  margin-bottom: 2em;
-  border-radius: 4px;
-  padding: 1em;
+  background-color: rgba(225, 225, 225, .7);
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  border: none;
+  font-size: 22px;
 }
 .submit {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 4px;
-  background-color: #fff;
-  color: rgba(93, 186, 127, 1);
+  background-color:  rgba(93, 186, 127, 1);
+  color: #fff;
   border: none;
   text-transform: uppercase;
-  padding: 10px 15px;
-  width: 30%;
-  margin-bottom: 0;
+  padding: 1em 2em;
+  margin-bottom: 2em;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: .1em;
 }
 
 ::-webkit-input-placeholder {
-   color: #fff;
+  font-size: 22px;
  }
 
  :-moz-placeholder { /* Firefox 18- */
-   color: #fff;
+  font-size: 22px;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;
+  font-size: 22px;
 }
 
 :-ms-input-placeholder {
-   color: #fff;
+  font-size: 22px;
 }
